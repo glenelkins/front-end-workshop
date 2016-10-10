@@ -1,0 +1,83 @@
+/* Layout */
+* {
+  box-sizing: border-box; /* More info:  http: //www.w3schools.com/cssref/css3_pr_box-sizing.asp */
+}
+
+body {
+  background-color: #fff;
+  color: #000;
+  margin: 0;
+  overflow-x: hidden;
+  padding: 0;
+}
+
+.container {
+  display: block;
+  margin: 0 auto;
+  max-width: 1220px;
+  padding-bottom: 2.5em;
+  padding-top: 2.5em;
+  width: 100%;
+}
+
+.container:after {
+  clear: both;
+  content: "";
+  display: block;
+  font-size: 0;
+  height: 0;
+  visibility: hidden;
+}
+
+main {
+  float: left;
+  padding-right: 100px;
+  width: 75%;
+}
+
+aside {
+  float: right;
+  width: 25%;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Header */
+header {
+  background-color: #15181a;
+  color: #fff;
+  padding: 1.25em 0;
+}
+
+header h2 {
+  font-size: 3em;
+}
+
+/* Main */
+#photos img {
+  display: block;
+  margin-bottom: 30px;
+}
+
+/* Aside */
+aside .location {
+  background-image: url(../images/pin.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  /*
+    The previous 3 lines of CSS can be combined into one line:  
+    background:  url(../images/pin.png) 0 0 no-repeat;
+  */
+  line-height: 30px;
+  padding-left: 30px;
+}
+
+/* Footer */
+footer {
+  background-color: #15181a;
+  color: #5c5e5f;
+  padding: 50px 0;
+  text-align: center;
+}
