@@ -9,13 +9,20 @@ function showPhotos(event) {
 }
 
 
-
+//Defining a function and calling it from document.ready
+// var onDocumentReadyFunc = function() {
+    // console.log('The page has been loaded');
+// };
+//
+// $(document).ready(function() {
+//     onDocumentReadyFunc();
+// });
 
 // $(document).ready(function(){
 
   // // Show more photos
   // $('#show-more').click(function(event) {
-    
+
   //   // Stop click event
   //   event.preventDefault();
 
@@ -37,7 +44,7 @@ function showPhotos(event) {
 
 //   // Show more photos
 //   $('#show-more, #show-less').click(function(event) {
-    
+
 //     // Stop click event
 //     event.preventDefault();
 
